@@ -4,14 +4,16 @@
     font-family: "android";
     src: url(fontes/idroid.otf);
 }
-body{background-color: aquamarine;text-align: center;text-indent: 20px;}
+body{background-color: aquamarine;text-align: center;text-indent: 1em;}
 header{
     background-image: linear-gradient(rgb(9, 219, 9),rgba(0, 0, 0, 0.582));
     padding:10px 10px 10px 10px;
     box-shadow: 0px 5px 6px rgb(0 0 0 / 36%);margin: -5px -5px 0px -5px;}
+    header>h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: aliceblue;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.548);}
     
     
-    h1,h2-h2.qpm{font-family: "android";}
+    h1,h2{font-family: "android";}
+    #qpm{font-family: Arial, Helvetica, sans-serif;color: whitesmoke;}
     h2{background-image: linear-gradient(to right,rgba(0, 128, 128, 0.562),white);text-align: left;}
 
     
@@ -45,7 +47,7 @@ border-radius: 10px 10px 0px 0px;}
 section>iframe{top: 5%;left: 5%;width: 90%;height: 90%;position: absolute;}
 
 
-main{background-color: aliceblue;margin:0px 15%;box-shadow: 0px 8px 10px rgb(0 0 0 / 47%);border-radius: 10px;padding: 12px 5px;}
+main{background-color: aliceblue;margin:0px 10em;box-shadow: 0px 8px 10px rgb(0 0 0 / 47%);border-radius: 10px;padding: 12px 5px;}
 main a{background-color: rgb(17, 230, 81);text-decoration: none;}
 main a:hover{text-decoration: underline;}
 
