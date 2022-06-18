@@ -56,12 +56,12 @@ main{background-color: aliceblue;box-shadow: 0px 8px 10px rgb(0 0 0 / 47%);borde
 main a{background-color: rgb(17, 230, 81);text-decoration: none;}
 main a:hover{text-decoration: underline;}
 
-footer{margin: 20px 20%;
+footer{margin: 20px;
      padding: 5px;
      background-color: black;
     text-align: center;
     color: aliceblue;
     margin: auto
-    }
+    ;max-width: 100%;max-width: 1000px;min-width: 400px;}
 
 
